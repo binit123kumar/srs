@@ -2,11 +2,11 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../Styles/Carousel.css';
-import One from '../Assests/slider/1.jpg'
-import Second from '../Assests/slider/3.jpg'
-import Third from '../Assests/slider/4.jpg'
-import Four from '../Assests/slider/5.jpg'
-import Five from '../Assests/slider/6.jpg'
+import One from '../Assests/slider/1.jpg';
+import Second from '../Assests/slider/3.jpg';
+import Third from '../Assests/slider/4.jpg';
+import Four from '../Assests/slider/5.jpg';
+import Five from '../Assests/slider/6.jpg';
 
 const Carousels = () => {
   return (
@@ -23,19 +23,19 @@ const Carousels = () => {
       dynamicHeight={true}
     >
       <div>
-        <img src={Five} alt="Image 1" />
+        <img src={Five} alt="Slideshow banner one" />
       </div>
       <div>
-        <img src={Second} alt="Image 2" />
+        <img src={Second} alt="Slideshow banner two" />
       </div>
       <div>
-        <img src={Third} alt="Image 3" />
+        <img src={Third} alt="Slideshow banner three" />
       </div>
       <div>
-        <img src={Four} alt="Image 3" />
+        <img src={Four} alt="Slideshow banner four" />
       </div>
       <div>
-        <img src={One} alt="Image 3" />
+        <img src={One} alt="Slideshow banner five" />
       </div>
     </Carousel>
   );
