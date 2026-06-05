@@ -30,7 +30,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link to={"#"}>Certificate Programme in River Management</Link>
+              <Link to={"#"}>– M.Tech in Water Resource Engineering</Link>
             </li>
             <li>
               <Link to={"#"}>Doctor of Philosophy in River Science</Link>

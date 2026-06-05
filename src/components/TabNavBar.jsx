@@ -3,7 +3,7 @@ import TabsWithDropdowns from './TabsWithDropdown';
 import '../Styles/Tab.css';
 import Institute from './Institute';
 import Contact from '../pages/Contact';
-import Msc from '../Assests/CourseCurriculumofCRS.pdf'
+import Msc from '../Assests/CourseCurriculumofCRS.pdf';
 
 const TabNavBar = () => {
   const tabs = [
@@ -19,8 +19,8 @@ const TabNavBar = () => {
       label: 'Academic Program',
       dropdownOptions: [
         { label: 'Master of Science (MSc) in River Science and Management', link: Msc },
-        { label: 'Certificate Programme in River Management.', link: '#' },
-        { label: 'Doctor of Philosophy in River Science', link: '#' }
+        { label: 'Doctor of Philosophy in River Science', link: '#' },
+        { label: 'M.Tech in Water Resource Engineering', link: '#' }
       ]
     },
     {
@@ -28,6 +28,7 @@ const TabNavBar = () => {
       dropdownOptions: [
         { label: 'Faculty And Staff', link: '/Faculty' },
         { label: 'Academic Advisory Committee', link: '/Aac' },
+        { label: 'Guest', link: '/Guest' },
       ]
     },
     {
@@ -58,7 +59,6 @@ const TabNavBar = () => {
     {
       label: 'Contact',
       content: <Contact/>,
-      
     },
   ];
 

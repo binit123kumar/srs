@@ -20,6 +20,12 @@ function AimAndObjective() {
         in River Management Doctor of Philosophy in River Science The University
         welcomes fulltime M.Sc. Students as well as professionals from Govt.,
         Civil Society, Industry or any Social Movement or Organization.
+        	To establish state of art facility for teaching and research on river basin and water resource engineering.
+        	To conduct academic courses at bachelor and post graduate levels.
+        	To conduct researches on various aspects of rover ecology, engineering and basin management.
+        	To contribute and enrich knowledge on river engineering and basin management through quality publications.
+        	To develop programs for faculty development  for field staff and for teachers and researchers of other institution with similar objectives.
+
       </h3>
     </div>
   );
