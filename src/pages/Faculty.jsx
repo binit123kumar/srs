@@ -145,7 +145,7 @@ function Faculty() {
               <p>
                 <span style={labelStyle}>Email:</span>
                 <br />
-                g.kr01aku@gmail.com
+                gaurav_kr77@yahoo.com
               </p>
 
               <p>
