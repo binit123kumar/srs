@@ -1,11 +1,5 @@
 import React from "react";
 import "../Styles/Event.css";
-import Event1 from '../Assests/Event1.jpg'
-import Event2 from '../Assests/Event2.jpg'
-import Event3 from '../Assests/Event3.jpg'
-import Event4 from '../Assests/Event4.jpg'
-import Event5 from '../Assests/Event5.jpg'
-import Event6 from '../Assests/Event6.jpg'
 import Event7 from '../Assests/Event7.jpg'
 import Event8 from '../Assests/Event8.jpg'
 
@@ -17,7 +11,8 @@ function Event() {
       </h1>
       <br />
       <br />
-      <div className="container">
+      
+      {/*<div className="container">
         <h1 className="head-tag">Events of Centre for River Studies</h1>
         <hr />
         <h2 className="head-tag">Event Details</h2>
@@ -25,7 +20,7 @@ function Event() {
         National Science Day was celebrated on 22nd December 2023 remembering the greatest Mathematician of all times Srinivasa Ramanujan on his 136th Birth Anniversary.
         </p>
         {/* FIXED: Changed class to className and updated alt text */}
-        <img className="img-active" src={Event1} alt="National Science Day celebration banner" />
+        {/*<img className="img-active" src={Event1} alt="National Science Day celebration banner" />
         <br />
         <img className="img-active" src={Event2} alt="National Science Day event presentation" />
         <br />
@@ -45,7 +40,7 @@ function Event() {
         <img className="img-active" src={Event5} alt="NSS student activities snapshot" />
         <br />
         <img className="img-active" src={Event6} alt="NSS volunteers group session" />
-      </div>
+      </div>*/}
       <br />
       <br />
       <div className="container">
